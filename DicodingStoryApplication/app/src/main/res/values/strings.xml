@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Dicoding Story Application</string>
+    <string name="upload">Upload</string>
+    <string name="description">Description</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="dicoding_story_app">Dicoding Story App</string>
+    <string name="page_description">Upload your stories and view other people\'s stories here! You can upload an image with its description and post it in this app.</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="login_description">Input your login data before enjoying this amazing story app!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signup_description">SIgn up now and join us to create new stories to be shared and view other people\'s amazing stories!</string>
+    <string name="Name">Name</string>
+    <string name="logout">logout</string>
+    <string name="created_on">Created on %s</string>
+    <string name="story_by">Story by: %s</string>
+    <string name="lorem">Lorem Ipsum</string>
+    <string name="description_title">Description:</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map">map</string>
+    <string name="include_location">Include my current location in the story</string>
+    <string name="retry">Try Again</string>
+</resources>

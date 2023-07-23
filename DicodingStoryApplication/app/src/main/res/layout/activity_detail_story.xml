@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.detailstory.DetailStoryActivity">
+
+    <ImageView
+        android:id="@+id/iv_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitCenter"
+        tools:src="@tools:sample/backgrounds/scenic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="20dp"
+        android:transitionName="image"
+        android:alpha="0"
+        tools:alpha="1"/>
+    
+    <TextView
+        android:id="@+id/tv_detail_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/story_by"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/iv_item_photo"
+        app:layout_constraintEnd_toEndOf="@id/iv_item_photo"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="@id/iv_item_photo"
+        android:alpha="0"
+        tools:alpha="1"/>
+
+    <TextView
+        android:id="@+id/tv_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_detail_name"
+        app:layout_constraintStart_toStartOf="@id/tv_detail_name"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:text="@string/created_on"
+        android:alpha="0"
+        tools:alpha="1"/>
+
+    <TextView
+        android:id="@+id/tv_description_title"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/description_title"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_item_date"
+        app:layout_constraintStart_toStartOf="@id/tv_item_date"
+        android:alpha="0"
+        tools:alpha="1"/>
+
+    <TextView
+        android:id="@+id/tv_detail_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/lorem"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/tv_description_title"
+        app:layout_constraintStart_toStartOf="@id/iv_item_photo"
+        app:layout_constraintEnd_toEndOf="@id/iv_item_photo"
+        android:alpha="0"
+        tools:alpha="1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
