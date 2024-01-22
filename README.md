@@ -1,4 +1,4 @@
-# Submission Dicoding Belajar Pengembangan Aplikasi Android Intermediate
+# Android Story Application
 Submission kelas Dicoding: Belajar Pengembangan Aplikasi Android Intermediate. Membuat story application di mana user dapat mengupload gambar serta deskripsinya untuk dapat dilihat user lain. User juga dapat melihat daftar dari gambar dan deskripsi yang diupload oleh user lain. Aplikasi ini menggunakan fitur signup dan login untuk verifikasi user.
 
 ## Fitur Aplikasi
